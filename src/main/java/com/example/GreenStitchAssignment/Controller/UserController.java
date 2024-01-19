@@ -15,8 +15,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-
-
 @RestController
 public class UserController {
 
@@ -41,7 +39,7 @@ public class UserController {
         return new ResponseEntity<UserData>(p,HttpStatus.CREATED);
     }
 
-    // first time user login with Email and password and got JWT token
+    // first time user login with Email and password
 
     @GetMapping("/signIn")
     public ResponseEntity<UserData> getLoggedInCustomerDetailsHandler(Authentication auth) throws BadCredentialsException{
