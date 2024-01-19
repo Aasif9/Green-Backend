@@ -107,6 +107,7 @@ cd GreenStich/GreenStitch
 - Lombok
 - Maven
 
+
 ### Validation Rules
 
 The following validation rules are applied to the user entity:
@@ -149,7 +150,6 @@ spring.datasource.password=asif
 spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
 spring.h2.console.enabled=true
 spring.h2.console.path=/h2-console
-
 ```
 
 
